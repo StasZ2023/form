@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html{
+    background-color: rgba(0, 0, 0, 0.9);
+    color:rgb(175, 175, 175);
+    font-size: 20px;
+}
+.header{
+    width:100%;
+    background-color:rgba(0, 255, 0, 0.514);
+    /* min-height:250px; */
+    /* position: fixed; */
+    /* top:-220px;  */
+}
+
+.header--ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header--ul_li{
+    list-style-type: none;
+    background-color:rgb(255, 230, 0);
+    padding:5px 10px;
+    border-radius: 15px;
+    position: relative;
+}
+.header--li{
+    margin:10px;
+    /* background-color:blue */
+}
+.header--li_ul{
+    position: absolute;
+    z-index: 10;
+    background-color:rgba(0, 255, 255, 0.186);
+    list-style-type: none;
+    display:none;
+    border-radius: 10px;
+}
+.header--li_ul-li{
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    background-color:rgba(255, 255, 255, 0.805);
+}
+.tag{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:space-between;
+    margin:10px auto;
+    padding:15px;
+    /* background-color:rgba(0, 0, 0, 0.753); */
+    box-shadow: 0 0 10px 0 black;
+    line-height: 30px;
+}
+i{
+
+    color:red;
+}
+b{
+    color:blueviolet
+}
+strong{
+    color:tomato
+}
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
+    margin:10px;
+}
+.tab-pri{
+    display: flex;
+    width:80%;
+    margin:0 auto;
+}
+.tab-teg-pri{
+    /* background-color: aliceblue; */
+    padding:20px;
+    /* display: flex; */
+    width: 100%;
+}
+table{
+    border:2px solid black;
+    width:80%;
+    height:200px;
+    margin:0 auto;
+}
+caption{
+    border:2px solid green
+}
+td{
+    border:1px solid red;
+}
+th{
+    border:1px solid blue
+}
+.tab-teg:hover .tab-teg-pri{
+    color: black;
+}
+.none{
+    display: none;
+}
+
+.form{
+    margin:20px;
+    padding:10px;
+    background-color: aquamarine;
+    box-shadow: 0 0 50px 0 blue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:red;
+}
+form{
+    display: block;
+}
